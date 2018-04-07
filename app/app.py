@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return render_template('index.html', container=container())
+  return render_template('index.html', container=container(), image=image())
 
 def container():
   statement = ['cat','/proc/self/cgroup']
