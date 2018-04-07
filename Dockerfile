@@ -10,4 +10,5 @@ WORKDIR /home/app
 
 EXPOSE 8989
 
+
 CMD python -m flask run --port=8989 --host=0.0.0.0
