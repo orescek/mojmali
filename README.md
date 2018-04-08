@@ -1,3 +1,3 @@
-# simple python we service
+# Simple python web service
 
 Shows static page!
